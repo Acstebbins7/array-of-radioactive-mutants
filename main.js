@@ -15,7 +15,6 @@ function addMeToStart(array){
 
 function changeLast(array, num){
   array[array.length - 1] = num 
-  // or
   array.splice(array.length - 1, 1, num)
 }
 
