@@ -1,26 +1,26 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-function addMeToEnd(array){
+function addMeToEnd (array) {
   array.push('Colin')
 }
 
 // $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
-function addMeToStart(array){
+function addMeToStart (array) {
   array.unshift('Colin')
 }
 
 // $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
-function changeLast(array, num){
+function changeLast (array, num) {
   array[array.length - 1] = num 
   array.splice(array.length - 1, 1, num)
 }
 
 // $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
-function changeAllValuesTo(array, num){
+function changeAllValuesTo (array, num) {
   for (let i = 0; i < array.length; i++){
     array[i] = num
   }
@@ -28,7 +28,7 @@ function changeAllValuesTo(array, num){
 
 // $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
-function oddOrEven(array){
+function oddOrEven (array) {
   for (let i = 0; i < array.length; i++){
     if (array[i] % 2 === 0){
       array[i] = 'even'
