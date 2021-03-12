@@ -40,7 +40,7 @@ function oddOrEven (array) {
 
 // $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
-function changeNextThreeToValue(i, array, value){
+function changeNextThreeToValue (i, array, value) {
   for (let n = i; n < i + 3; n++){
     array[n] = value
   }
